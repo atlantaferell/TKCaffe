@@ -1,4 +1,4 @@
-// toggle classs actiive
+// toggle class actiive
 const navbarNav = document.querySelector(".navbar-nav");
 // ketika di klick
 document.querySelector("#hamburger-menu").onclick = () => {
