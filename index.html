@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>BrandName</title>
+    <title>Coffee - House</title>
     <link rel="icon" href="img/icon.jpg" />
-
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,13 +19,14 @@
     <!-- Feather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
 
-    <!-- My Style -->
+    <!-- Style -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+
     <!-- Navbar -->
     <nav class="navbar">
-      <a href="" class="navbar-logo">Brand <span>Name</span></a>
+      <a href="" class="navbar-logo">Welcome to Coffee <span>House</span></a>
       <div class="navbar-nav">
         <a href="#home">Home</a>
         <a href="#about">About Us</a>
@@ -57,6 +57,7 @@
           <label for="Username">Email</label>
           <input type="text" name="" placeholder="Enter Your Email" id="" />
           <label for="password">Password</label>
+          <label for="repeat-password">Repeat Your Password</label>
           <input
             type="password"
             name=""
@@ -74,14 +75,16 @@
     <section class="hero" id="home">
       <main class="content">
 
-        <h1>Start your day with<span> a Cup of Coffee</span></h1>
-        <p>We provide high quality coffee, freshly made.</p>
+        <h1>Start Day with<span> Cup of Coffee</span></h1>
 
         <p>
-          Always try the best way to serve our customers. We provide the best
-          coffee. Can 100% trusted by our customers.
-
+          We provide high quality coffee,
         </p>
+        
+        <p>
+          Always try the best way to serve our customers. We provide the best coffee 100% trusted.
+        </p>
+
         <button type="button" class="cta" onclick="location.href='#menu'">
           Shop Now
         </button>
@@ -98,7 +101,6 @@
           <div class="about-img">
             <img src="img/about-us.jpg" alt="About" />
           </div>
-
 
           <div class="content">
             <h3>What makes our coffee special?</h3>
@@ -119,69 +121,73 @@
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#382b0e"
-          fill-opacity="1"
-          d="M0,224L80,192C160,160,320,96,480,96C640,96,800,160,960,170.7C1120,181,1280,139,1360,117.3L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
-        ></path>
+            fill-opacity="1"
+          d="M0,224L80,192C160,160,320,96,480,96C640,96,800,160,960,170.7C1120,181,1280,139,1360,117.3L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
+        </path>
       </svg>
 
       <div class="menu-container">
-        <h2><span>Our</span> Menu</h2>
-        <p>Warm Offerings from Our Kitchen</p>
+      <h2><span>Our</span> Menu</h2>
+      <p>We provide high quality coffee, freshly made.</p>
 
         <div class="row">
           <div class="menu-card">
-            <img src="img/espresso.jpg" alt="espresso" class="menu-card-img" />
-            <h3 class="menu-card-title">- Espreso -</h3>
+            <img src="img/black-coffee.jpg" 
+            alt="Black-Coffee" 
+            class="menu-card-img" />
+            <h3 class="menu-card-title">- Black Coffee -</h3>
             <p class="menu-card-price">IDR 15K</p>
           </div>
+
           <div class="menu-card">
             <img
-              src="img/Espresso-Romano.jpg"
-              alt="Espresso-Romano"
-              class="menu-card-img"
-            />
-            <h3 class="menu-card-title">- Espresso Romano -</h3>
+              src="img/espresso.jpg"
+              alt="Espresso"
+              class="menu-card-img" />
+            <h3 class="menu-card-title">- Espresso -</h3>
             <p class="menu-card-price">IDR 18K</p>
           </div>
+
           <div class="menu-card">
             <img
               src="img/cappuccino.jpg"
               alt="Traditional Cappuccino"
-              class="menu-card-img"
-            />
-            <h3 class="menu-card-title">- Traditional Cappuccino -</h3>
+              class="menu-card-img" />
+            <h3 class="menu-card-title">- Traditional Cappucino -</h3>
             <p class="menu-card-price">IDR 25K</p>
           </div>
+
           <div class="menu-card">
             <img
               src="img/vanilla-latte.jpg"
               alt="Vanilla Latte"
-              class="menu-card-img"
-            />
+              class="menu-card-img" />
             <h3 class="menu-card-title">- Vanilla Latte -</h3>
             <p class="menu-card-price">IDR 22K</p>
           </div>
+
           <div class="menu-card">
             <img
               src="img/Sweet-Mocha.jpg"
               alt="Sweet Mocha"
-              class="menu-card-img"
-            />
+              class="menu-card-img" />
             <h3 class="menu-card-title">- Sweet Mocha -</h3>
             <p class="menu-card-price">IDR 20K</p>
           </div>
+
           <div class="menu-card">
             <img
               src="img/caramel.jpg"
               alt="Caramel Macchiato"
-              class="menu-card-img"
-            />
+              class="menu-card-img" />
             <h3 class="menu-card-title">- Caramel Macchiato -</h3>
             <p class="menu-card-price">IDR 21K</p>
           </div>
         </div>
     </section>
     <!-- End Menu Section -->
+
+    <!-- svg for parallax effect -->
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path
         fill="#010101"
@@ -189,6 +195,7 @@
         d="M0,224L80,192C160,160,320,96,480,96C640,96,800,160,960,170.7C1120,181,1280,139,1360,117.3L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
       ></path>
     </svg>
+
     <!-- contact section -->
     <section id="contact" class="contact">
       <div
@@ -200,7 +207,9 @@
         data-min-height="500px"
         data-form-id="48782"
       ></div>
+
       <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
+
       <!-- <h2><span>Kontak </span>Kami</h2>
       <p>
         Feel free to contact us if you have any questions or would like to make
