@@ -274,7 +274,8 @@ body {
 
 /* about section */
 .about,
-.menu {
+.menu,
+.contact {
   padding: 8rem 7% 1.4rem;
 }
 /* disini kalo mau yg biasa aja tambahkan contact */
