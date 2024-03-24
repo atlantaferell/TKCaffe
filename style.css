@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
 }
@@ -61,7 +61,7 @@ body {
 }
 
 .navbar .navbar-nav a::after {
-  content: '';
+  content: "";
   display: block;
   padding-bottom: 0.5rem;
   border-bottom: 0.1rem solid var(--primary);
@@ -225,7 +225,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url('img/header-bg.jpg');
+  background-image: url("img/header-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -248,7 +248,7 @@ body {
   position: absolute;
   /* background: salmon; */
   inset: 0;
-  -webkit-mask-image: url('img/header-bg.svg');
+  -webkit-mask-image: url("img/header-bg.svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: auto;
   -webkit-mask-position: center;
@@ -403,7 +403,7 @@ body {
 }
 
 /* contact us section */
-/* .contact .row {
+.contact .row {
   display: flex;
   margin-top: 2rem;
   background-color: #222;
@@ -449,7 +449,7 @@ body {
   background-color: var(--primary);
   cursor: pointer;
   border-radius: 7px;
-} */
+}
 
 /* footer */
 footer {
