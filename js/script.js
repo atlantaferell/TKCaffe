@@ -35,3 +35,6 @@ window.onclick = (e) => {
     modal.style.display = "none";
   }
 };
+
+//aos
+AOS.init();
