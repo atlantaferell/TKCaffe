@@ -15,6 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
       rel="stylesheet"
     />
+    <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Feather Icons -->
@@ -104,7 +105,7 @@
           </div>
 
           <div class="content">
-            <h3>What makes our coffee special?</h3>
+            <h3>What makes our coffee <span>special</span> ?</h3>
             <p>
               We provide high quality coffee, freshly made. complicated
               proscesses are involved in the production of coffee. until we can
@@ -132,64 +133,94 @@
       <p>We provide high quality coffee, freshly made.</p>
 
         <div class="row">
-          <div class="menu-card">
+          <div class="menu-card" data-aos="fade-up">
             <img src="img/black-coffee.jpg" 
             alt="Black-Coffee" 
             class="menu-card-img" />
             <h3 class="menu-card-title">- Black Coffee -</h3>
             <p class="menu-card-price">IDR 15K</p>
+            <div class="add">
+              <a href="">
+                <i class="feather-16" data-feather="shopping-cart"></i>
+              </a>
+            </div>
           </div>
 
-          <div class="menu-card">
+          <div class="menu-card" data-aos="fade-up">
             <img
               src="img/espresso.jpg"
               alt="Espresso"
               class="menu-card-img" />
             <h3 class="menu-card-title">- Espresso -</h3>
             <p class="menu-card-price">IDR 18K</p>
+            <div class="add">
+              <a href="">
+                <i class="feather-16" data-feather="shopping-cart"></i>
+              </a>
+            </div>
           </div>
 
-          <div class="menu-card">
+          <div class="menu-card" data-aos="fade-up">
             <img
               src="img/cappuccino.jpg"
               alt="Traditional Cappuccino"
               class="menu-card-img" />
             <h3 class="menu-card-title">- Traditional Cappucino -</h3>
             <p class="menu-card-price">IDR 25K</p>
+            <div class="add">
+              <a href="">
+                <i class="feather-16" data-feather="shopping-cart"></i>
+              </a>
+            </div>
           </div>
 
-          <div class="menu-card">
+          <div class="menu-card" data-aos="fade-up">
             <img
               src="img/vanilla-latte.jpg"
               alt="Vanilla Latte"
               class="menu-card-img" />
             <h3 class="menu-card-title">- Vanilla Latte -</h3>
             <p class="menu-card-price">IDR 22K</p>
+            <div class="add">
+              <a href="">
+                <i class="feather-16" data-feather="shopping-cart"></i>
+              </a>
+            </div>
           </div>
 
-          <div class="menu-card">
+          <div class="menu-card" data-aos="fade-up">
             <img
               src="img/Sweet-Mocha.jpg"
               alt="Sweet Mocha"
               class="menu-card-img" />
             <h3 class="menu-card-title">- Sweet Mocha -</h3>
             <p class="menu-card-price">IDR 20K</p>
+            <div class="add">
+              <a href="">
+                <i class="feather-16" data-feather="shopping-cart"></i>
+              </a>
+            </div>
           </div>
 
-          <div class="menu-card">
+          <div class="menu-card" data-aos="fade-up">
             <img
               src="img/caramel.jpg"
               alt="Caramel Macchiato"
               class="menu-card-img" />
             <h3 class="menu-card-title">- Caramel Macchiato -</h3>
             <p class="menu-card-price">IDR 21K</p>
+            <div class="add">
+              <a href="">
+                <i class="feather-16" data-feather="shopping-cart"></i>
+              </a>
+            </div>
           </div>
         </div>
     </section>
     <!-- End Menu Section -->
 
     <!-- svg for parallax effect -->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <svg id="contact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path
         fill="#010101"
         fill-opacity="1"
@@ -198,7 +229,7 @@
     </svg>
 
     <!-- contact section -->
-    <section id="contact" class="contact">
+    <section class="contact">
       <!-- <div
         class="visme_d"
         data-title="Untitled Project"
@@ -211,12 +242,12 @@
 
       <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script> -->
 
-      <h2><span>Kontak </span>Kami</h2>
+      <h2><span>Contact </span>Us</h2>
       <p>
         Feel free to contact us if you have any questions or would like to make
         a reservation!
       </p>
-      <div class="row" data-aos="zoom-in">
+      <div class="row" data-aos="zoom-in" data-aos-duration="1500">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253840.65639022697!2d106.66470106402271!3d-6.229379586946628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1710926259326!5m2!1sid!2sid"
           allowfullscreen=""
@@ -238,7 +269,7 @@
             <i data-feather="phone"></i>
             <input type="text" placeholder="Handphone" />
           </div>
-          <button type="submit" class="btn">send message</button>
+          <button type="submit" class="btn">Send</button>
         </form>
       </div>
     </section>
