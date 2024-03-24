@@ -157,8 +157,8 @@ body {
 
 .login-container {
   position: relative;
-  background-color: rgba(110, 83, 43, 0.904);
-  color: #010101;
+  background-color: var(--p);
+  color: white;
   margin: auto;
   padding: 1.2rem;
   border: 1px solid #666;
@@ -194,19 +194,20 @@ body {
   display: block;
   height: 50px;
   width: 100%;
-  background-color: #333;
+  background-color: var(--bg);
   border-radius: 3px;
   padding: 0 0.8rem;
   margin-top: 0.8rem;
   font-size: 1.2rem;
   font-weight: 400;
+  color: white;
 }
 
 .login-content button {
   margin-top: 2rem;
   width: 100%;
-  color: #000000;
-  background-color: #333;
+  color: white;
+  background-color: var(--primary);
   padding: 1.2rem 0;
   font-size: 18px;
   font-weight: 600;
@@ -215,7 +216,8 @@ body {
 }
 
 .login-content button:hover {
-  background-color: var(--primary);
+  background-color: white;
+  color: var(--primary);
 }
 /* Login Form End */
 
