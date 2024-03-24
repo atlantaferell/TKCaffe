@@ -2,6 +2,7 @@
   --primary: #b6895b;
   --bg: #382b0e;
   --p: #5f5f5f;
+  --footer: #776015;
 }
 
 * {
@@ -514,7 +515,7 @@ footer .socials a {
 
 footer .socials a:hover,
 footer .links a:hover {
-  color: var(--bg);
+  color: var(--footer);
 }
 
 footer .links {
@@ -529,6 +530,10 @@ footer .links a {
 footer .credit a {
   color: var(--p);
   font-weight: 700;
+}
+
+footer .credit a:hover {
+  color: var(--footer);
 }
 
 /* media query */
